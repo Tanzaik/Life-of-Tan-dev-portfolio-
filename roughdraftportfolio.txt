@@ -1,0 +1,150 @@
+﻿* Use three.js to make a 3d website portfolio
+* Highlight adventures using the GoPro
+* Customize the webpage and make the page look pretty
+* Maybe implement HTML and CSS
+* Upload onto a host server or domain whatever its called
+* Make a section for photography and then add in beautiful pictures from NYC and Toronto
+* Caption each photo and say where it was taken
+* Additionally, add in photos going into Socal Cancun and vegas
+* Make another section for videography and add in an adventure vlog like to capture the moment
+
+
+
+
+Technologies:
+Here are some of the qualities of technology that I honed throughout my career.
+
+
+* Front-End: Experienced in HTML/CSS, React.js, Node.js and Three.js
+* Back-End: Experienced in Python, MySQL, and Database administration
+* UI/UX Designer: Experienced in Adobe Photoshop and Illustrator
+
+
+
+
+Timeline:
+A glimpse of my life span.
+
+
+* 2000, Born in Toronto, ON, Canada
+* 2005, I Moved to Albany, New York
+* 2006, I Moved to Oakland, California 
+* 2007, Settled down in Fremont, California
+* 2016, Granted US Citizenship through naturalization
+
+
+
+
+Personal Achievements:
+
+
+2014: Learned to ride a skateboard 
+2018: Graduated from Irvington High School 
+2020: Received Associate in Science degree from Ohlone College 
+2022: Reached 9% body fat level by the age of 21
+
+
+https://img.shields.io/badge/-RStudio-333333?style=flat&logo=rstudio
+
+
+https://img.shields.io/badge/-SQL-333333?style=flat&logo=sqlite
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import NextLink from 'next/link'
+
+
+
+
+<NextLink href="https://instagram.com/2ktanman/" passHref>
+                    <NavLink>Videography</NavLink>
+              </NextLink>
+
+
+
+
+
+
+
+
+<Div2>
+          
+          
+          <Router> 
+          <li>
+               <switch>
+            <NavLink>Vidoography</NavLink>
+                <Route exact path="/videography" component={videography}>
+                </Route>
+            
+                </switch>
+          </li>
+          </Router>
+
+
+          <li>
+              <Link href = "/Photo">
+                    <NavLink>Photography</NavLink>
+              </Link>
+
+
+          </li>
+          <li>
+              <Link href = "/about/new" class= "btn btn-success">
+                    <NavLink>About</NavLink>
+              </Link>
+          </li>
+          <li>
+              <Link href = "/Contact">
+                    <NavLink>Contact</NavLink>
+              </Link>
+
+
+          </li>
+      </Div2>
+
+
+
+
+
+
+
+
+const videography = () => {
+    return ();
+        <div className="videography">
+            <h2>Add a new blog</h2>
+        </div>
+    );
+
+
+}
+
+
+export default videography;
+
+
+
+
+
+
+import {Link} from 'react-router-dom'
