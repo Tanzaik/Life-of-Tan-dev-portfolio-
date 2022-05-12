@@ -1,2 +1,2 @@
-# lifeoftan.github.io
+# Life Of Tan
 my personal portfolio
