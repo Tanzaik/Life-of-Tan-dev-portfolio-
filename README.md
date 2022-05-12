@@ -1,3 +1,3 @@
 # Life Of Tan
-my personal portfolio
+check it out:
 www.lifeoftan.com
